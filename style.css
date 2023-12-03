@@ -1,0 +1,48 @@
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color:#ffffff;
+    width: 250px;
+    height: 45px;
+    text-align: right;
+    align-items: center;
+}
+
+.field_p{
+    font-size: 22px;
+width: 220px;
+height: 40px;
+}
+
+.buttons{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.button{
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(20, 20, 71);
+    color: white;
+    border-radius: 50%;
+}
+
+.blue{
+    background-color: rgb(198, 143, 3);
+}
+
+
